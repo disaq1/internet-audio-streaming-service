@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;
+
+300;400;500;600;700;800&display=swap");
+:root {
+  --gradient: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        white,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    );
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a:focus,
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 20px auto;
+  padding: 50px;
+  color: #ffffff;
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#140c2b), to(#333391));
+  background: -o-linear-gradient(top, #140c2b, #333391);
+  background: linear-gradient(to bottom, #140c2b, #333391);
+  font-family: 'Manrope', sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+header p {
+  line-height: 26px;
+  font-weight: 300;
+  padding: 0 130px;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid;
+}
+
+.nav ul {
+  padding-left: 0;
+}
+
+.left {
+  float: left;
+  margin: 0;
+}
+
+.right {
+  float: right;
+  margin-top: 15px;
+}
+
+.li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.li:last-child {
+  margin-right: 0;
+}
+
+.a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.span {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+  border: 2px solid #414072;
+  border-radius: 50px;
+  margin-left: 5px;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.h5:hover,
+.span:hover {
+  cursor: pointer;
+}
+
+.span::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  background: #414072;
+  border-radius: 50px;
+  top: 3px;
+  left: 4px;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.input {
+  display: none;
+}
+
+.input:checked ~ span {
+  border-color: #7270ca;
+  -webkit-box-shadow: 0 5px 25px rgba(113, 112, 202, 0.5);
+          box-shadow: 0 5px 25px rgba(113, 112, 202, 0.5);
+  background: rgba(113, 112, 202, 0.5);
+}
+
+.input:checked ~ span::before {
+  left: 36px;
+  -webkit-box-shadow: 0 5px 25px rgba(113, 112, 202, 0.5);
+          box-shadow: 0 5px 25px rgba(113, 112, 202, 0.5);
+  background: #7270ca;
+}
+
+.body_content {
+  margin-top: 30px;
+}
+
+.title {
+  background: #414072;
+  color: #ffffff;
+  padding: 20px 5px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title__span {
+  font-size: 20px;
+}
+
+.list_block span:nth-child(1),
+.title__span:nth-child(1) {
+  width: 8%;
+}
+
+.list_block span:nth-child(2),
+.title__span:nth-child(2) {
+  width: 35%;
+}
+
+.list_block span:nth-child(3),
+.title__span:nth-child(3) {
+  width: 16%;
+}
+
+.list_block span:nth-child(4),
+.title__span:nth-child(4) {
+  width: 16%;
+}
+
+.list_block span:nth-child(5),
+.title__span:nth-child(5) {
+  width: 10%;
+}
+
+.list_block span:nth-child(6),
+.title__span:nth-child(6) {
+  width: 10%;
+}
+
+.list_block {
+  position: relative;
+  padding: 20px 5px;
+  background: #000000;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list_block span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fa-cloud-download-alt {
+  color: white;
+}
+
+.download_btn {
+  position: absolute;
+  right: 30px;
+}
+
+.download_btn:hover {
+  opacity: 0.7;
+}
+
+.beat_animation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.beat_animation ul li {
+  list-style: none;
+  height: 40px;
+  width: 3px;
+  background: #ffffff;
+  display: inline-block;
+  margin: 0 5px;
+  -webkit-transform-origin: bottom;
+      -ms-transform-origin: bottom;
+          transform-origin: bottom;
+  opacity: .1;
+  -webkit-animation: beat 1s linear 0s infinite;
+          animation: beat 1s linear 0s infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes beat {
+  50% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+@keyframes beat {
+  50% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+.beat_animation li:nth-child(1) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+.beat_animation li:nth-child(2) {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.beat_animation li:nth-child(4) {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+.isPlaying {
+  border: 1px solid #4b4980;
+  -webkit-box-shadow: 0 5px 25px #7471cc5e, 0 0 15px #7471cc5e;
+          box-shadow: 0 5px 25px #7471cc5e, 0 0 15px #7471cc5e;
+}
+
+.play_btn {
+  text-align: center;
+}
+
+.pause_icon {
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  -webkit-box-shadow: 0 5px 25px #7471cc, 0 0 15px #7471cc;
+          box-shadow: 0 5px 25px #7471cc, 0 0 15px #7471cc;
+}
+
+.play_btn .pause_icon {
+  display: none;
+}
+
+.track {
+  display: none;
+}
+
+.search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #2f3640;
+  height: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.search-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #2f3640;
+  border-radius: 50%;
+}
+
+.search-txt {
+  width: 0;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  background: none;
+  line-height: 40px;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.search-box:hover .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover .search-btn {
+  background: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

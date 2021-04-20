@@ -1,0 +1,295 @@
+﻿.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 20px auto;
+    padding: 50px;
+    color: $trueWhite;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, rgb(20, 12, 43), rgb(51, 51, 145));;
+
+    font-family: 'Manrope', sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+header p {
+    line-height: 26px;
+    font-weight: 300;
+    padding: 0 130px;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid;
+}
+
+.nav ul {
+    padding-left: 0;
+}
+
+.left {
+    float: left;
+    margin: 0;
+}
+
+.right {
+    float: right;
+    margin-top: 15px;
+}
+
+.li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.li:last-child {
+    margin-right: 0;
+}
+
+.a {
+    text-decoration: none;
+    color: $trueWhite;
+}
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+}
+
+.h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.span {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    border: 2px solid #414072;
+    border-radius: 50px;
+    margin-left: 5px;
+    transition: all ease 0.5s;
+}
+
+.h5:hover,
+.span:hover {
+    cursor: pointer;
+}
+
+.span::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    background: #414072;
+    border-radius: 50px;
+    top: 3px;
+    left: 4px;
+    transition: all ease 0.5s;
+}
+
+.input {
+    display: none;
+}
+
+.input:checked ~ span {
+    border-color: #7270ca;
+    box-shadow: 0 5px 25px rgba($color: #7170ca, $alpha: 0.5);
+    background: rgba($color: #7170ca, $alpha: 0.5);
+}
+
+.input:checked ~ span::before {
+    left: 36px;
+    box-shadow: 0 5px 25px rgba($color: #7170ca, $alpha: 0.5);
+    background: #7270ca;
+}
+
+.body_content {
+    margin-top: 30px;
+}
+
+.title {
+    background: #414072;
+    color: $trueWhite;
+    padding: 20px 5px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.title__span {
+    font-size: 20px;
+}
+.list_block span:nth-child(1),
+.title__span:nth-child(1) {
+    width: 8%;
+}
+.list_block span:nth-child(2),
+.title__span:nth-child(2) {
+    width: 35%;
+}
+.list_block span:nth-child(3),
+.title__span:nth-child(3) {
+    width: 16%;
+}
+.list_block span:nth-child(4),
+.title__span:nth-child(4) {
+    width: 16%;
+}
+.list_block span:nth-child(5),
+.title__span:nth-child(5) {
+    width: 10%;
+}
+.list_block span:nth-child(6),
+.title__span:nth-child(6) {
+    width: 10%;
+}
+
+.list_block {
+    position: relative;
+    padding: 20px 5px;
+    background: $trueBlack;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.list_block span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fa-cloud-download-alt {
+    color: white;
+}
+
+.download_btn {
+    position: absolute;
+    right: 30px;
+}
+
+.download_btn:hover {
+    opacity: 0.7;
+}
+
+//~~~~~~~ BEAT ANIMATION ~~~~~~~\\
+.beat_animation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.beat_animation ul li {
+    list-style: none;
+    height: 40px;
+    width: 3px;
+    background: $trueWhite;
+    display: inline-block;
+    margin: 0 5px;
+    transform-origin: bottom;
+    opacity: .1;
+    animation: beat 1s linear 0s infinite;
+    animation-play-state: paused;
+}
+
+@keyframes beat {
+    50% {
+        transform: scaleY(0);
+    }
+}
+
+.beat_animation li:nth-child(1) {
+    animation-delay: .2s;
+}
+.beat_animation li:nth-child(2) {
+    animation-delay: .4s;
+}
+.beat_animation li:nth-child(4) {
+    animation-delay: .3s;
+}
+
+
+.isPlaying {
+    border: 1px solid #4b4980;
+    box-shadow: 0 5px 25px #7471cc5e, 0 0 15px #7471cc5e;
+}
+
+.play_btn {
+    text-align: center;
+}
+
+.pause_icon {
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: 0 5px 25px #7471cc, 0 0 15px #7471cc;
+}
+
+.play_btn .pause_icon {
+    display: none;
+}
+
+.track {
+    display: none;
+}
+
+//Стили для блока "Поиск"
+.search-box {
+    display: flex;
+    background: #2f3640;
+    height: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 40px;
+}
+//Стили для кнопки "Поиск"
+.search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+
+    text-decoration: none;
+    color: $trueWhite;
+    background: #2f3640;
+    border-radius: 50%;
+}
+//Стили для инпута блока "Поиск"
+.search-txt {
+    width: 0;
+    border: none;
+    outline: none;
+    color: $trueWhite;
+    font-size: 16px;
+    background: none;
+    line-height: 40px;
+
+    transition: .4s;
+}
+//Стили для раскрытия блока поиск
+.search-box:hover .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+//Стили для кнопки "Поиск" при наведении
+.search-box:hover .search-btn {
+    background: #000;
+}
