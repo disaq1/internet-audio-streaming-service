@@ -215,6 +215,7 @@ input:focus {
 .container {
   width: 100%;
   max-width: 1140px;
+  min-width: 320px;
   margin: 20px auto;
   padding: 50px;
   color: #ffffff;
@@ -517,6 +518,9 @@ header p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #2f3640;
   height: 20px;
   margin-top: 10px;
@@ -561,10 +565,15 @@ header p {
 }
 
 .search-box:hover .search-btn {
+  width: 30px;
+  height: 30px;
   background: #000;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#140c2b), to(#333391));
+  background: -o-linear-gradient(top, #140c2b, #333391);
+  background: linear-gradient(to bottom, #140c2b, #333391);
 }
