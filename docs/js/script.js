@@ -19,7 +19,7 @@ $(document).ready(function() {
     }
 
     // PLAY FUNCTIONALITY
-    $(".list_block .play_btn .play_icon").on('click', function(current) {
+    $(".play_icon").on('click', function(current) {
 
         $(this).parent().find(".play_icon").css("display", "none");
         $(this).parent().find(".pause_icon").css("display", "inline-block");
@@ -47,7 +47,7 @@ $(document).ready(function() {
     });
 
     // PAUSE FUNCTIONALITY
-    $(".list_block .play_btn .pause_icon").on('click', function() {
+    $(".pause_icon").on('click', function() {
 
         // HIDE PAUSE ICON
         $(this).parent().find(".pause_icon").css("display", "none");
